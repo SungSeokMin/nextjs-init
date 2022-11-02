@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <Fragment>
       <GlobalStyle />
       <ThemeProvider theme={theme}>
-        <Component {...pageProps} />;
+        <Component {...pageProps} />
       </ThemeProvider>
     </Fragment>
   );
